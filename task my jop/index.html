@@ -1,0 +1,517 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>DevFolio</title>
+    <link rel="stylesheet" href="./css/media.css" />
+    <link rel="stylesheet" href="./css/all.min.css" />
+    <link href="./css/bootstrap.min.css" rel="stylesheet" />
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="./css/styel.css" />
+  </head>
+  <body>
+    <!--Start hero-section -->
+    <section class="hero-section postion-relative">
+      <div class="container">
+        <header class="header">
+          <a href="#" class="get-started text-decoration-underline">
+            Get Started Now
+          </a>
+          <button class="bg-blue-200 rounded-4 no-underline">
+            <a href="#" class="login"> Login </a>
+          </button>
+        </header>
+        <div class="content">
+          <div class="row justify-between">
+            <div class="col-sm-12 col-md-6 col-lg-6 z-10">
+              <div class="image-section">
+                <img
+                  src="./imges/blackman.png"
+                  alt="Person"
+                  class="person-image"
+                />
+                <div class="profile-card">
+                  <span class="profile-img">
+                    <img
+                      class="p-0.5 rounded-full ring-2 ring-gray-300 dark:ring-gray-500"
+                      src="./imges/avatare.jpg"
+                      alt="Bordered avatar"
+                    />
+                  </span>
+
+                  <span>
+                    <h3>James Bruno</h3>
+                    <p>Digital Marketer</p>
+                  </span>
+                </div>
+              </div>
+            </div>
+            <div class="col-sm-12 col-md-5 col-lg-6 z-10">
+              <div class="text-section">
+                <h1>We Help You Build & Grow an Online Business</h1>
+                <div class="search-bar">
+                  <form class="max-w-md mx-auto">
+                    <div class="relative">
+                      <input
+                        type="search"
+                        id="default-search"
+                        class="w-100 shadow-lg p-3 text-xs text-gray-900 border rounded-2 bg-gray-50 focus:ring-blue-500 focus:border-blue-500 dark:border-gray-600 dark:placeholder-gray-400 dark:focus:ring-blue-500 dark:focus:border-blue-500"
+                        placeholder="Tell us what you need to build..."
+                        required
+                      />
+                      <button
+                        type="submit"
+                        class="position-absolute end-0 p-2.5 ms-2 text-sm font-medium text-white bg-blue-700 rounded-2 border border-blue-700 hover:bg-blue-800 focus:ring-4 focus:outline-none focus:ring-blue-300 dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800"
+                      >
+                        <i class="fa-solid fa-magnifying-glass"></i>
+                      </button>
+                    </div>
+                  </form>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <span class="pexle-img">
+        <img src="./imges/pexle.png" alt="Pexle" />
+      </span>
+      <img class="postion-absolute z-0" src="./imges/blob (1).svg" alt="wave" />
+
+      <span class="position-absolute top-0 w-100 z-0">
+        <img src="./imges/random_shapes_smaller.svg" alt="Random Shapes" />
+      </span>
+    </section>
+    <!--end hero-section -->
+    <!--Start About-section -->
+    <main class="about-us">
+      <section class="img-nav">
+        <div class="container px-16">
+          <nav class="mt-28">
+            <div
+              class="flex flex-wrap items-center justify-between mx-auto p-4"
+            >
+              <a
+                href="#"
+                class="flex items-center space-x-3 rtl:space-x-reverse z-30"
+              >
+                <span class="text-slate-400 text-[.8rem]">
+                  Companies We've helped build
+                </span>
+              </a>
+              <button
+                data-collapse-toggle="navbar-solid-bg"
+                type="button"
+                class="inline-flex items-center p-2 w-10 h-10 justify-center text-sm text-gray-500 rounded-lg md:hidden hover:bg-gray-100 focus:outline-none focus:ring-2 focus:ring-gray-200 dark:text-gray-400 dark:hover:bg-gray-700 dark:focus:ring-gray-600"
+                aria-controls="navbar-solid-bg"
+                aria-expanded="false"
+              >
+                <span class="sr-only">Open main menu</span>
+                <svg
+                  class="w-5 h-5"
+                  aria-hidden="true"
+                  xmlns="http://www.w3.org/2000/svg"
+                  fill="none"
+                  viewBox="0 0 17 14"
+                >
+                  <path
+                    stroke="currentColor"
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                    stroke-width="2"
+                    d="M1 1h15M1 7h15M1 13h15"
+                  />
+                </svg>
+              </button>
+              <div
+                class="hidden w-full md:block md:w-auto"
+                id="navbar-solid-bg"
+              >
+                <ul class="nav justify-content-end align-items-center">
+                  <li class="nav-item">
+                    <a class="nav-link active" aria-current="page" href="#">
+                      <img class="w-14" src="./imges/media-24.svg" alt="" />
+                    </a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="#">
+                      <img class="w-14" src="./imges/Online-logo.gif" alt="" />
+                    </a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="#">
+                      <img
+                        class="w-14"
+                        src="./imges/westin-guest-office-logo.png"
+                        alt=""
+                      />
+                    </a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link disabled" href="#">
+                      <img class="w-14" src="./imges/SMART-logo.png" alt="" />
+                    </a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link disabled" href="#">
+                      <img
+                        class="w-14 pb-sm-2"
+                        src="./imges/iCOM-logo.png"
+                        alt=""
+                      />
+                    </a>
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </nav>
+        </div>
+      </section>
+      <section class="about-products">
+        <div class="container px-16">
+          <div class="row">
+            <div class="col-sm-12 col-lg-5 contents">
+              <div
+                class="max-w-sm p-6 text-left bg-white dark:bg-gray-800 dark:border-gray-700"
+              >
+                <span class="text-[#F9E6B1]">WE HELP YOU</span>
+                <h2
+                  class="mb-2 text-5xl font-bold tracking-tight text-gray-900 mt-4"
+                >
+                  Sell <br />
+                  Stunning <br />
+                  Products
+                </h2>
+                <p
+                  class="mb-4 font-normal text-[15px] text-gray-700 dark:text-gray-400 mt-4"
+                >
+                  We'll guide you through our unique 5-step brand-building
+                  framwork
+                </p>
+                <a
+                  href="#"
+                  class="inline-flex rounded-5 items-center px-3 py-2 text-sm font-medium text-center text-white rounded-lg bg-[#bd1698] hover:bg-purple-800 focus:ring-4 focus:outline-none focus:ring-purple-300 dark:bg-purple-500 dark:hover:bg-purple-700 dark:focus:ring-purple-800"
+                >
+                  MORE DETAILS
+                  <span
+                    class="ms-3 pt-1.5 fs-5 rounded-full bg-white text-[#bd1698] hover:bg-purple-800 w-8 h-8"
+                  >
+                    <i class="fa-solid fa-angle-right"></i>
+                  </span>
+                </a>
+              </div>
+            </div>
+            <div class="col-sm-12 col-lg-6">
+              <main
+                class="d-flex align-items-center justify-content-center position-relative"
+              >
+                <div
+                  class="minimal-chair position-relative bg-[#F7DC88] p-8 w-56 h-56 rounded-full"
+                >
+                  <div
+                    class="card h-40 shadow-lg w-[10rem] card-h position-absolute top-[53%] left-[21%]"
+                  >
+                    <img
+                      src="./imges/chare.png"
+                      class="card-img-top img-fluid m-auto position-absolute bottom-[45%] left-[-3%]"
+                      alt="Minimal Chair"
+                    />
+                    <div class="card-body flex flex-col-reverse">
+                      <h4 class="card-title mt-16">Minimal Chair</h4>
+                    </div>
+
+                    <div class="card-footer bg-white flex justify-between pt-3">
+                      <span class="text-[#ffd57a] num-span">
+                        $204.<span class="text-[#f7db88c9]">00</span>
+                      </span>
+                      <span class="text-muted">
+                        <i class="fa-solid fa-cart-shopping"></i>
+                      </span>
+                    </div>
+                  </div>
+                </div>
+                <div class="headphone position-absolute">
+                  <div
+                    class="position-relative bg-[#AB9EFB] p-8 w-56 h-56 rounded-full"
+                  >
+                    <div
+                      class="card h-40 shadow-lg w-[10rem] card-h position-absolute top-[53%] left-[21%]"
+                    >
+                      <img
+                        src="./imges/Headphone.png"
+                        class="card-img-top img-fluid m-auto position-absolute bottom-[45%] left-[-3%]"
+                        alt="Beats Headphone"
+                      />
+                      <div class="card-body flex flex-col-reverse">
+                        <h5 class="card-title text-sm mt-16">
+                          Beats Headphone
+                        </h5>
+                      </div>
+
+                      <div
+                        class="card-footer bg-white flex justify-between pt-3"
+                      >
+                        <span class="text-[#ffd57a] num-span">
+                          $74.<span class="text-[#f7db88c9]">00</span>
+                        </span>
+                        <span class="text-muted">
+                          <i class="fa-solid fa-cart-shopping"></i>
+                        </span>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </main>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+    <!--end About-section -->
+    <!--start products-section -->
+    <section class="products-section position-relative pb-40 pt-40">
+      <img
+        class="products-bg position-absolute"
+        src="./imges/blob (2).svg"
+        alt="wave2"
+      />
+      <div class="container">
+        <div class="row row-cols-1 row-cols-md-3 g-4">
+          <div class="col">
+            <div class="card border-0 shadow">
+              <figure class="p-2">
+                <img
+                  src="./imges/girl.jpg"
+                  class="card-img-top rounded"
+                  alt="Girl With red cab"
+                />
+              </figure>
+              <div class="card-body text-left">
+                <h5 class="card-title fs-4">FASHION STORE</h5>
+                <p class="card-text">
+                  This is a longer card with supporting text below as a natural
+                  lead-in to additional content. This content is a little bit
+                  longer.
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="col">
+            <div class="card border-0 shadow">
+              <figure class="p-2">
+                <img
+                  src="./imges/Futuristic-furniture.png"
+                  class="card-img-top rounded"
+                  alt="Futuristic-furniture"
+                />
+              </figure>
+
+              <div class="card-body text-left">
+                <h5 class="card-title fs-4">HOME FURNITURE</h5>
+                <p class="card-text">
+                  This is a longer card with supporting text below as a natural
+                  lead-in to additional content. This content is a little bit
+                  longer.
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="col">
+            <div class="card border-0 shadow">
+              <figure class="p-2">
+                <img
+                  src="./imges/getty-images.jpg"
+                  class="card-img-top rounded"
+                  alt="gettyMan"
+                />
+              </figure>
+
+              <div class="card-body text-left">
+                <h5 class="card-title fs-4">SUPER GADGET STORE</h5>
+                <p class="card-text">
+                  This is a longer card with supporting text below as a natural
+                  lead-in to additional content. This content is a little bit
+                  longer.
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!--end products-section -->
+    <!--end contact-section -->
+    <section class="contact pb-40 pt-40">
+      <div class="container px-16">
+        <div class="row justify-content-center">
+          <div class="col-sm-12 col-lg-6">
+            <main
+              class="contact-main d-flex align-items-center position-relative"
+            >
+              <div
+                class="contact-form1 position-relative bg-[#5BB8D9] p-8 w-44 h-44 rounded-full"
+              >
+                <div class="contact-card-1">
+                  <span class="contact-img-1">
+                    <img
+                      class="p-0.5 ml-4 mr-8 rounded-full ring-2 ring-gray-300 dark:ring-gray-500"
+                      src="./imges/avatare.jpg"
+                      alt="Bordered avatar"
+                    />
+                  </span>
+                  <span class="contact-total">
+                    <h3 class="fw-700">
+                      $ 7,654
+                      <i class="fa-solid fa-square-caret-up text-[1rem]"></i>
+                    </h3>
+                    <p>
+                      TOTAL REVENUE
+                      <span class="text-[#5ABA77]">+$232</span>
+                    </p>
+                  </span>
+                </div>
+              </div>
+              <div class="contact-form2 position-absolute">
+                <div
+                  class="position-relative bg-[#63CC87] p-8 w-36 h-36 rounded-full"
+                >
+                  <div class="contact-card-2">
+                    <span>
+                      <h3 class="fw-700">
+                        $ 9,978
+                        <i class="fa-solid fa-square-caret-up text-[1rem]"></i>
+                      </h3>
+                      <p>
+                        TOTAL REVENUE
+                        <span class="text-[#5ABA77]">+$349 </span>
+                      </p>
+                    </span>
+                    <span class="contact-img-1">
+                      <img
+                        class="p-0.5 rounded-full ring-2 ring-gray-300 dark:ring-gray-500"
+                        src="./imges/avatare.jpg"
+                        alt="Bordered avatar"
+                      />
+                    </span>
+                  </div>
+                </div>
+              </div>
+            </main>
+          </div>
+          <div class="col-sm-12 col-lg-5 contents">
+            <div
+              class="customers-sales max-w-sm p-6 text-left bg-white dark:bg-gray-800 dark:border-gray-700"
+            >
+              <span class="text-[#F9E6B1]">WHAT WE DO</span>
+              <h2
+                class="mb-2 text-5xl font-bold tracking-tight text-gray-900 mt-4"
+              >
+                Increase our Customers Sales
+              </h2>
+              <p
+                class="mb-4 font-normal text-[15px] text-gray-400 dark:text-gray-400 mt-4"
+              >
+                Our customers are seeing big results eithis the first three
+                months
+              </p>
+              <a
+                href="#"
+                class="inline-flex rounded-5 items-center px-3 py-2 text-sm font-medium text-center text-white rounded-lg bg-[#bd1698] hover:bg-purple-800 focus:ring-4 focus:outline-none focus:ring-purple-300 dark:bg-purple-500 dark:hover:bg-purple-700 dark:focus:ring-purple-800"
+              >
+                MORE DETAILS
+                <span
+                  class="ms-3 pt-1.5 fs-5 rounded-full bg-white text-[#bd1698] hover:bg-purple-800 w-8 h-8"
+                >
+                  <i class="fa-solid fa-angle-right"></i>
+                </span>
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!--end contact-section -->
+    <!--strat customer-opinion -section -->
+    <section class="customer-opinion position-relative pb-16 pt-28">
+      <img
+        class="position-absolute z-[-1]"
+        src="./imges/blob (2).svg"
+        alt="blob"
+      />
+      <div class="container px-16">
+        <div class="row justify-content-center align-items-center">
+          <div class="col-sm-12 col-lg-6">
+            <div class="card shadow-lg p-8 w-96">
+              <h6 class="fs-2 text-center">Write Us</h6>
+              <div class="card-body">
+                <form class="max-w-sm mx-auto" id="extendedForm">
+                  <div class="relative mb-6">
+                    <div
+                      class="absolute inset-y-0 start-0 flex items-center ps-3.5 pointer-events-none"
+                    >
+                      <svg
+                        class="w-4 h-4 text-gray-500 dark:text-gray-400"
+                        aria-hidden="true"
+                        xmlns="http://www.w3.org/2000/svg"
+                        fill="currentColor"
+                        viewBox="0 0 20 16"
+                      >
+                        <path
+                          d="m10.036 8.278 9.258-7.79A1.979 1.979 0 0 0 18 0H2A1.987 1.987 0 0 0 .641.541l9.395 7.737Z"
+                        />
+                        <path
+                          d="M11.241 9.817c-.36.275-.801.425-1.255.427-.428 0-.845-.138-1.187-.395L0 2.6V14a2 2 0 0 0 2 2h16a2 2 0 0 0 2-2V2.5l-8.759 7.317Z"
+                        />
+                      </svg>
+                    </div>
+                    <input
+                      type="email"
+                      id="email"
+                      name="email"
+                      required
+                      class="bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-purple-500 focus:border-purple-500 block w-full ps-10 p-2.5 dark:border-gray-600 dark:placeholder-gray-400 dark:focus:ring-blue-500 dark:focus:border-blue-500"
+                      placeholder="name@flowbite.com"
+                    />
+                  </div>
+                  <div class="mb-5">
+                    <textarea
+                    id="message"
+                      rows="4"
+                      class="block p-2.5 w-full text-sm text-gray-900 bg-gray-50 rounded-lg border border-gray-300 focus:ring-blue-500 focus:border-blue-500 dark:border-gray-600 dark:placeholder-gray-400 dark:focus:ring-blue-500 dark:focus:border-blue-500"
+                      placeholder="Leave a comment..."
+                    >
+                  </textarea>
+                  <p id="charCount">0/150 characters</p>
+                  </div>
+                  <button
+                    type="submit"
+                    class="text-white bg-purple-700 hover:bg-purple-800 focus:ring-4 focus:outline-none focus:ring-purple-300 font-medium rounded-lg text-sm w-full sm:w-auto px-5 py-2.5 text-center dark:bg-purple-600 dark:hover:bg-purple-700 dark:focus:ring-purple-800"
+                  >
+                    SEND YOUR MASSAGE
+                  </button>
+                  <p class="feedback" id="feedback"></p>
+                </form>
+              </div>
+            </div>
+          </div>
+          <div class="col-sm-12 col-lg-6 position-relative">
+            <div class="main-lafing position-relative">
+              <figure>
+                <img
+                  class="w-[23rem] m-auto"
+                  src="./imges/lafingPerson.png"
+                  alt="Lafing Person"
+                />
+              </figure>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!--end customer-opinion -section -->
+    
+    <script src="./js/bootstrap.bundle.min.js"></script>
+    <script src="./js/main.js"></script>
+  </body>
+</html>
